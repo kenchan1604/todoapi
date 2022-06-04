@@ -1,8 +1,8 @@
 'use strict'
 
-const rand = require('csprng')
-const restify = require('restify')
-const server = restify.createServer()
+const rand = require('csprng');
+const restify = require('restify');
+const server = restify.createServer();
 
 server.use(restify.plugins.fullResponse())
 server.use(restify.plugins.bodyParser())
